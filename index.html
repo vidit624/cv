@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CV Builder</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="logo.jpg">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">	
+</head>
+<body>
+	<div class="tm-container">
+		<div class="tm-main">
+			<div class="background">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<header class="cv-header">
+				<div class="cv-header-wrapper">
+				<div class="cv-template">
+					<img class="cv-template1 templates" src="cv.png" alt="cv-template">
+					<img class="cv-template2 templates" src="cv2.png" alt="cv-template">
+					<img class="cv-template3 templates" src="cv3.png" alt="cv-template">
+				</div>
+				<form>
+					<div class="login-box">
+						<h1 class="login-heading">Login</h1>
+						<div class="textbox">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input type="text" placeholder="Roll Number" name="Roll No." required>
+						</div>
+						<div class="textbox">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+							<input type="password" placeholder="Password" name="Password" required>
+						</div>
+						<div align="center">
+							<input type="submit" class="login-button" value="Sign In">
+						</div>
+					</form>
+						<div class="sign-up">
+							<div class="pop-up">
+								<div class="line-up">
+									<h2>New User!! Sign Up Here</h2>
+									<a href="#modal-opened"><input type="button" class="login-button link-1" id="modal-closed" value="Sign Up">
+									</a>
+								</div>
+
+									<div class="container" id="modal-opened">
+									  <div class="modal">
+									 	<form class="contact-form" method="get" action="#">
+									 		<h1 class="title" align="center">Sign Up</h1>
+										    <div class="details">
+										      	
+										      	<h3 class="contact-title title1">Name</h3><input type="text" name="name" class="contact-input input1" placeholder=" Name" required><br>
+												<h3 class="contact-title title1">Email-Id</h3><input type="email" name="Email" class="contact-input input2" placeholder=" Mail-Id" required><br>
+												<h3 class="contact-title  title1">Roll Number</h3><input type="text" name="Roll_no" class="contact-input input3" placeholder=" Roll Number" required><br>
+												<h3 class="contact-title  title1">Password</h3><input type="password" name="Password" class="contact-input input4" placeholder=" Password" required><br>
+												<h3 class="contact-title  title1">Confirm Password</h3><input type="password" name="Password" class="contact-input input5" placeholder=" Password" required><br>					
+												<div align="center">
+													<button class="btn login-button">Submit</button>
+												</div>
+										    </div>
+										 
+										    <a href="#modal-closed" class="link-2"></a>
+									 	</form>
+									  </div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+	</div>
+	<footer class="login-footer design-footer" align="center">
+			<span>&copy; 2019 Communiqué.</span>
+	</footer>
+</body>
+</html>
